@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <GifGrid /> show component  1`] = `
+<Fragment>
+  <h3>
+    Death Note
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Cargando...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`render <GifGrid /> show items when load images useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    Death Note
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="test gif"
+      url="https://localhost/any/any.jpg"
+    />
+  </div>
+</Fragment>
+`;

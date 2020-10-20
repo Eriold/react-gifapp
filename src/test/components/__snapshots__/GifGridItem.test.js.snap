@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <GifGridItem /> show <GifGridItem /> correctly 1`] = `
+<div
+  className="card animate__animated animate__bounce"
+>
+  <img
+    alt="A title"
+    src="https://localhost/algo.jpg"
+  />
+  <p>
+    A title
+  </p>
+</div>
+`;
